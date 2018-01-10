@@ -1,11 +1,9 @@
-# NodeQuant：一个基于Node.js的开源量化金融交易平台
-![image](http://i2.kiimg.com/1949/2fbd754431d72fa9.jpg)
-
-## NodeQuant的愿景
+ 
+### NodeQuant的愿景
 
 让Node.js社区轻巧地开发和部署量化金融交易程序，成为一个简单、高效、可依赖的量化交易平台
 
-## NodeQuant如何支持量化交易
+### NodeQuant如何支持量化交易
 
 - 一个账号 —— 多策略，支持一个账号多个策略的量化产品模式
 - 一个策略 —— 多合约，支持套利
@@ -17,7 +15,7 @@
 - 盈透证券 —— 全球24个国家100多个市场中心的股票、期权、期货、外汇等产品
 - 使用JavaScript语言开发量化交易策略。与C++相比不需要策略研究员处理琐碎但重要的内存管理问题。Node.js的速度也非常快，与C++处于同一个级别速度，且入门简单，能够快速开发程序。
 
-## NodeQuant简介
+### NodeQuant简介
 国内的量化交易平台大多是C、C++、C#、Java、Python等语言编写量化策略。从事量化交易的人员在学会金融数据的分析的同时也要学好一门编程语言，往往学好一门编程语言对于很多人是一个不小的门槛。JavaScript语言是一门简单轻便的脚本语言，学习和编写JavaScript程序都非常简单。脚本语言具有弱类型的特点，不需要开发者在编写程序的过程中适配各种数据类型，入门快速。
 
 而且JavaScript有大量的开发者，它是GitHub上最热门的编程语言
@@ -33,7 +31,7 @@ Node.js 的包管理器 npm，是全球最大的开源库生态系统。使用np
 
 所以使用Node.js来编写和运行量化交易策略程序是一个非常好的解决方案，这就是NodeQuant量化交易平台诞生的背景。
 
-## NodeQuant系统架构
+### NodeQuant系统架构
 ![node.js](http://i2.nbimg.com/605009/5509796883d486c7.jpg)![加](http://i4.fuimg.com/605009/be9d40cbc1b82106.jpg)![express](http://i2.nbimg.com/605009/eefea14a8a637385.jpg)![加](http://i4.fuimg.com/605009/be9d40cbc1b82106.jpg)![nodequant](http://i2.nbimg.com/605009/038aef6f11b224f4.jpg)![加](http://i4.fuimg.com/605009/be9d40cbc1b82106.jpg)![redis](http://i2.nbimg.com/605009/c0038278cda84ed5.jpg)
 - **Node.js** —— NodeQuant系统是一个基于Node.js的量化交易平台。JavaScript语言也可以开发量化金融交易策略。
 - **Express** —— NodeQuant系统使用了Node.js平台的Express网络框架。可以使用Express框架将NodeQuant扩展成为一个互联网量化交易平台
@@ -41,7 +39,7 @@ Node.js 的包管理器 npm，是全球最大的开源库生态系统。使用np
 - **Redis** —— NodeQuant系统使用Redis内存数据库，所有交易数据都保存在内存中，极速响应实盘交易策略
 
 
-## NodeQuant量化交易框架
+### NodeQuant量化交易框架
 
 ![image](http://i2.kiimg.com/1949/5c05aec0fc211d76.png)
 
@@ -65,15 +63,15 @@ Node.js 的包管理器 npm，是全球最大的开源库生态系统。使用np
 - 支持打包加密策略
 - 更小的滑点成本。Windows系统中对CTP交易客户端进行测试,系统内Tick-To-FinishSendOrder平均耗时：1.5ms(基于python的vn.py平均耗时22.6ms)
 
-## NodeQuant 2.0即将来到的特性
+### NodeQuant 2.0即将来到的特性
 - 支持连接Tick数据行情服务器，使得策略可预先加载Tick，分钟行情数据。方便策略获取预处理数据
 - 支持策略运行异常邮件通知
 
-## 入门教程
+### 入门教程
 
 [NodeQuant开发文档](https://www.markbj.com/book/2ui9718/15921)
 
-## Node.js科学计算库
+### Node.js科学计算库
 
 - [mathjs](https://github.com/josdejong/mathjs) - An extensive math library for JavaScript and Node.js.
 - [numeric](https://github.com/sloisel/numeric) - Numerical analysis in Javascript.
@@ -89,24 +87,24 @@ Node.js 的包管理器 npm，是全球最大的开源库生态系统。使用np
 ## Node.js多线程库
 - [node-webworker-threads](https://github.com/audreyt/node-webworker-threads) - Lightweight Web Worker API implementation with native threads
 
-## Node.js多进程库
+### Node.js多进程库
 - [Cluster](https://nodejs.org/dist/latest-v6.x/docs/api/cluster.html) - A single instance of Node.js runs in a single thread. To take advantage of multi-core systems the user will sometimes want to launch a cluster of Node.js processes to handle the load.
 
-## Node.js的机器学习库
+### Node.js的机器学习库
 - [machine_learning](https://github.com/junku901/machine_learning) - Machine learning library for Node.js http://joonku.com/project/machine_learning
 
 - [各语言机器学习库整理](https://www.douban.com/group/topic/89453462/)
 
 
-## Javascript前端图形库
+### Javascript前端图形库
 
 - [echarts 3](http://echarts.baidu.com/)
 
-## 技术交流
+### 技术交流
 
 欢迎有兴趣使用NodeQuant做量化金融策略的Quanter加入QQ群进行交流和建议
 
 QQ群：197110856
 
-## 贡献
+### 贡献
 - @James-F-Zhang
